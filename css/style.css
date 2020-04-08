@@ -1,0 +1,91 @@
+h1{
+	font-style: normal;
+	width: 400px;
+	position: absolute;
+	font-size: 3em;
+	color: #000;
+  margin-left: 370px; 
+  margin-top: 130px;
+	font-family: 'Reenie Beanie';
+}
+
+h2{
+  position: absolute;
+	width: 435px;
+	font-family: 'Almarai', sans-serif;
+	font-weight: 100;
+	font-style:normal;
+	font-size: 0.9em;
+  line-height: 25px;
+	color: #333333;
+  margin-top: 200px;
+  margin-left: 370px;
+}
+
+.emphasis{
+	font-weight: 600;
+	position: relative;
+	font-size: 1em;
+	color: #333333;
+	font-style: bold;
+}
+
+.white{
+	color: #FFF;
+}
+
+img {
+  width: 220px;
+}
+
+a {
+  color: #333333;
+  background-color: transparent;
+  text-decoration: underline dotted;
+}
+
+a:hover {
+	color: #7ba2ab;
+}
+
+.image-crop {
+  position: absolute;
+	max-width: 220px;
+  width: auto;
+  height: 220px;
+  margin-top: 170px;
+  margin-left: 830px;
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+/* unused code
+.tab {
+  position: absolute;
+  overflow: hidden;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.tab button {
+  font-family:'Helvetica Neue';
+  background-color: #fff;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  transition: 0.4s;
+  border-radius: 24px;
+  color: #333333;
+}
+
+.tab button:hover {
+  color: #ffffff;
+}
+
+.tab button.active {
+  color: #7ba2ab;
+}
+*/ 
