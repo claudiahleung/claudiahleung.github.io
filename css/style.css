@@ -5,7 +5,7 @@ h1{
 	font-size: 3em;
 	color: #000;
   margin-left: 370px; 
-  margin-top: 100px;
+  margin-top: 70px;
 	font-family: 'Reenie Beanie';
 }
 
@@ -18,7 +18,7 @@ h2{
 	font-size: 0.9em;
   line-height: 25px;
 	color: #333333;
-  margin-top: 170px;
+  margin-top: 140px;
   margin-left: 370px;
 }
 
@@ -53,7 +53,7 @@ a:hover {
 	max-width: 220px;
   width: auto;
   height: 220px;
-  margin-top: 170px;
+  margin-top: 140px;
   margin-left: 830px;
   overflow: hidden;
   border-radius: 50%;
