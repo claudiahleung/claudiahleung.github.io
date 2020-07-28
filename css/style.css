@@ -60,6 +60,10 @@ a:hover {
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
+@media (min-device-width:600px){
+  content: attr(data-src-600px);
+}
+
 /* unused code
 .tab {
   position: absolute;
