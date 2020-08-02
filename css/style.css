@@ -49,6 +49,7 @@ a:hover {
   width: 50%;
   display: grid;
   margin-left: 25%;
+  margin-bottom: 5%;
 }
 
 .image-crop {
