@@ -1,25 +1,21 @@
 h1{
 	font-style: normal;
-	width: 400px;
-	position: absolute;
+	width: auto;
+	position: relative;
 	font-size: 3em;
 	color: #000;
-  margin-left: 370px; 
-  margin-top: 90px;
 	font-family: 'Reenie Beanie';
 }
 
-h2{
-  position: absolute;
-	width: 430px;
+p{
+  position: relative;
+	width: auto;
 	font-family: 'Almarai', sans-serif;
 	font-weight: 100;
 	font-style:normal;
 	font-size: 0.9em;
   line-height: 25px;
 	color: #333333;
-  margin-top: 160px;
-  margin-left: 370px;
 }
 
 .emphasis{
@@ -48,48 +44,43 @@ a:hover {
 	color: #7ba2ab;
 }
 
+.container {
+  height: 100%;
+  width: 50%;
+  display: grid;
+  margin-left: 25%;
+}
+
 .image-crop {
   position: absolute;
 	max-width: 220px;
-  width: auto;
+  width: 50%;
   height: 220px;
-  margin-top: 140px;
-  margin-left: 830px;
+  margin-left: 32%;
+  margin-top: 10%;
   overflow: hidden;
   border-radius: 50%;
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
 }
 
-@media (min-device-width:600px){
-  content: attr(data-src-600px);
-}
-
-/* unused code
-.tab {
+.text {
   position: absolute;
-  overflow: hidden;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin-top: 5%;
+  height: 100%;
+  width: 32%;
+  align-self: center;
 }
 
-.tab button {
-  font-family:'Helvetica Neue';
-  background-color: #fff;
-  font-size: 14px;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 10px 14px;
-  transition: 0.4s;
-  border-radius: 24px;
-  color: #333333;
+@media only screen and (max-width: 800px){
+  .image-crop {
+    display: none;
+  }
+  .container{
+    position: absolute;
+    width: 75%;
+    margin-left: 20%;
+  }
+  .text {
+    width: 75%;
+  }
 }
-
-.tab button:hover {
-  color: #ffffff;
-}
-
-.tab button.active {
-  color: #7ba2ab;
-}
-*/ 
