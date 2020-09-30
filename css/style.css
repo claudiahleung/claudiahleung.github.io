@@ -1,87 +1,39 @@
-h1{
-	font-style: normal;
-	width: auto;
-	position: relative;
-	font-size: 3em;
-	color: #000;
-	font-family: 'Reenie Beanie';
+h3 {
+    color: #F0F0F5;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
-p{
-  position: relative;
-	width: auto;
-	font-family: 'Almarai', sans-serif;
-	font-weight: 100;
-	font-style:normal;
-	font-size: 0.9em;
-  line-height: 25px;
-	color: #333333;
-}
-
-.emphasis{
-	font-weight: 600;
-	position: relative;
-	font-size: 1em;
-	color: #333333;
-	font-style: bold;
-}
-
-.white{
-	color: #FFF;
-}
-
-img {
-  width: 220px;
+p {
+    color: #6D6F74;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 a {
-  color: #333333;
-  background-color: transparent;
-  text-decoration: underline dotted;
-}
-
-a:hover {
-	color: #7ba2ab;
-}
-
-.container {
-  height: 100%;
-  width: 50%;
-  display: grid;
-  margin-left: 25%;
-}
-
-.image-crop {
-  position: absolute;
-	max-width: 220px;
-  width: 50%;
-  height: 220px;
-  margin-left: 32%;
-  margin-top: 10%;
-  overflow: hidden;
-  border-radius: 50%;
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.3);
-}
-
-.text {
-  position: absolute;
-  margin-top: 5%;
-  height: 100%;
-  width: 32%;
-  align-self: center;
-  margin-bottom: 5%;
+    color: #7ba2ab;
+    background-color: transparent;
+    align: center;
+    margin-bottom: 5%;
+  }
+  
+.intro{
+    background-color:rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    font-family: "Avenir";
+    src: url("src/avenir/Avenir-Book.ttf");
+    text-align: center;    
 }
 
 @media only screen and (max-width: 800px){
-  .image-crop {
-    display: none;
+    .intro{
+        width:50%;
+    }
   }
-  .container{
-    position: absolute;
-    width: 75%;
-    margin-left: 20%;
-  }
-  .text {
-    width: 75%;
-  }
-}
+  
