@@ -18,6 +18,10 @@ a {
     align: center;
     margin-bottom: 5%;
   }
+
+  a:hover{
+    color: #7ba2ab;
+  }
   
 .intro{
     background-color:rgba(0, 0, 0, 0.85);
